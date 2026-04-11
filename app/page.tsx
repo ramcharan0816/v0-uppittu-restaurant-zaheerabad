@@ -6,11 +6,7 @@ import { MenuSection } from '@/components/menu-section';
 import { WhySection } from '@/components/why-section';
 import { ContactSection } from '@/components/contact-section';
 import { Footer } from '@/components/footer';
-export function Navbar() {
-  return (
-    <nav>Navbar</nav>
-  );
-}
+
 export default function Home() {
   return (
     <div>
