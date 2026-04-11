@@ -9,6 +9,18 @@ const playfair = Playfair_Display({
   display: 'swap',
 });
 
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <meta name="google-site-verification" content="EHQ8mx_rVWgL5kCryZgTAYUiK0I36q_92YuORjQf22E" />
+      </Head>
+      <h1>Uppittu Restaurant</h1>
+    </>
+  );
+}
 const dmSans = DM_Sans({ 
   subsets: ["latin"],
   variable: '--font-sans',
