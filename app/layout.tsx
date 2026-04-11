@@ -15,13 +15,14 @@ const dmSans = DM_Sans({
   display: 'swap',
 })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Uppittu Restaurant | Zaheerabad',
   description: 'Best South Indian food in Zaheerabad',
   verification: {
     google: 'EHQ8mx_rVWgL5kCryZgTAYUiK0I36q_92YuORjQf22E',
   },
 }
+
 
 export default function RootLayout({
   children,
