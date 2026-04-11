@@ -1,5 +1,5 @@
 
-import { Navbar } from '@/components/navbar';
+import { Navbar } from '@/components/navbar1';
 import { HeroSection } from '@/components/hero-section';
 import { AboutSection } from '@/components/about-section';
 import { MenuSection } from '@/components/menu-section';
