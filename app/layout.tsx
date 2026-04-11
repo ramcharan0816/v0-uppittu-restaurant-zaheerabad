@@ -7,18 +7,17 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: '--font-serif',
   display: 'swap',
-});
+})
 
 const dmSans = DM_Sans({ 
   subsets: ["latin"],
   variable: '--font-sans',
   display: 'swap',
-});
+})
 
 export const metadata: Metadata = {
-  title: 'Uppittu — Authentic South Indian Cuisine | Zaheerabad',
-  description: 'Experience authentic South Indian breakfast and snacks at Uppittu, Zaheerabad.',
-  keywords: ['South Indian food', 'Zaheerabad', 'Uppittu'],
+  title: 'Uppittu Restaurant | Zaheerabad',
+  description: 'Best South Indian food in Zaheerabad',
   verification: {
     google: 'EHQ8mx_rVWgL5kCryZgTAYUiK0I36q_92YuORjQf22E',
   },
@@ -31,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
-      <body className="font-sans antialiased scroll-smooth">
+      <body className="font-sans antialiased">
         {children}
         <Analytics />
       </body>
