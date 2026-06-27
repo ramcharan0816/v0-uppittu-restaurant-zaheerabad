@@ -27,7 +27,7 @@ export function ContactSection() {
               <div className="text-[15px] text-foreground leading-normal">
                 Uppittu Restaurant
                 <br />
-                Zaheerabad, Telangana, India
+                Dattagiri Colony, Zaheerabad, Telangana, India
               </div>
             </div>
           </div>
