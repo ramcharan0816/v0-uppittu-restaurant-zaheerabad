@@ -16,8 +16,9 @@ export function HeroSection() {
             <Utensils className="h-3.5 w-3.5" />
             Authentic South Indian Cuisine
           </div>
-          <div style={{ backgroundImage: "url('/hero-bg.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-  {/* content goes here */}
+         <div>
+  className="bg-cover bg-center bg-no-repeat"
+  style={{ backgroundImage: "url('/hero-bg.jpg')" }} 
 </div>
           
           <h1 className="font-serif text-3xl md:text-[46px] leading-tight text-foreground mb-4">
