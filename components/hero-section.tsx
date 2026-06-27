@@ -12,10 +12,11 @@ export function HeroSection() {
     <section
       className="relative py-24 md:py-36 px-[6%] bg-cover bg-center bg-no-repeat overflow-hidden"
       id="home"
-      style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+      style={{ backgroundImage: "url('/hero-bg.jpg') opacity=0.6" }}
+     
     >
       {/* Dark overlay so text stays readable over the photo */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-background" />
+      
       {/* Ember glow accent, bottom-left */}
       <div className="absolute -bottom-32 -left-32 w-[420px] h-[420px] bg-primary/20 rounded-full blur-3xl pointer-events-none" />
 
