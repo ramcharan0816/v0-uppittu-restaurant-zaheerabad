@@ -16,6 +16,9 @@ export function HeroSection() {
             <Utensils className="h-3.5 w-3.5" />
             Authentic South Indian Cuisine
           </div>
+          <div style={{ backgroundImage: "url('/hero-bg.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+  {/* content goes here */}
+</div>
           
           <h1 className="font-serif text-3xl md:text-[46px] leading-tight text-foreground mb-4">
             The soul of Karnataka, served fresh in{' '}
