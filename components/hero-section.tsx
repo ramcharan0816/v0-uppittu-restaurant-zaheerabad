@@ -14,6 +14,8 @@ export function HeroSection() {
       id="home"
       style={{ backgroundImage: "url('/hero-bg.jpg')" }}
     >
+    </section>
+ 
       {/* Dark overlay so text stays readable over the photo */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/80" />
 
